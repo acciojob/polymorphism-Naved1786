@@ -14,8 +14,9 @@ public static class product{
 }
     public static void main(String[] args) {
       product p=new product();
-      p.product(2,3);
-      p.product(2,3,4);
-      p.product(1.2,2.5);
+        System.out.println(p.product(2,3));
+        System.out.println(p.product(2,3,4));
+        System.out.println(p.product(1.2,2.5));
+
     }
 }
